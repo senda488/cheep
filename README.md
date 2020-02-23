@@ -28,7 +28,7 @@
 |text|text|null: false|
 ### Association
 - has_many :tweets_tags
-- has_many  :tweets,  through:  :posts_tags
+- has_many  :tweets,  through:  :tweets_tags
 
 ## tweets_tagsテーブル
 |Column|Type|Options|
