@@ -1,0 +1,23 @@
+.header
+  .header__user
+    user-img
+  .header__logout
+    logout
+
+.main
+
+  .post
+    .post__box
+      %input.post__box-form
+        %label.post__box-form-img
+          = icon('far', 'image')
+          %input.hidden{type: 'file'}
+      -# = f.text_field :content, class: "post__box-form", placeholder: "type a messasge"    
+      -# = f.label :image, class: "post__box-form-img" do
+      -#   = icon('far', 'image')
+      -#   = f.file_field :image, class: "hidden"
+      %input.post__box-send{type: 'submit', value: 'Send'}
+  .chat
+
+
+  

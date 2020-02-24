@@ -4,6 +4,7 @@
 |username|string|null: false|
 |email|string|null: false|
 |password|string|null: false|
+|image|string||
 ### Association
 - has_many :tweets
 - has_many :comments
